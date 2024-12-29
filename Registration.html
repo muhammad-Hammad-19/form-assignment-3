@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form action="./Registration.html">
+        <div class="back">
+            <a href="./index.html">
+            <img src="./button.jpg" alt=""></a>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="rp">
+            <img src="https://th.bing.com/th/id/OIP.5BrwonF_9f0O_7bZ-XcJLQHaHa?rs=1&pid=ImgDetMain" height="200px" alt="">
+        </div>
+        <br>
+        <h1 id="student">STUDENT REGISTRATION FORM</h1>
+        <br><br>
+        <div class="NAME">
+            <label id="rgfs" for="FIRST NAME">FIRST NAME</label><input maxlength="30" placeholder="Enter tha FIRST NAME" type="text">(max 30 characters a-z and A-Z)
+        </div>
+        <br>
+        <div id="last">
+            <label id="rgfs" for="LAST NAME">LAST NAME</label><input maxlength="30" type="text" placeholder=" Enter tha LAST NAME">(max 30 characters a-z and A-Z)
+        </div>
+        <br>
+        <div id="date">
+        <label id="rgfd" for="DATE OF BIRTH<">DATE OF BIRTH</label>
+        <span id="rgfds"><input type="date"></span>
+        </div>
+        <br>
+        <div id="id">
+            <label id="rgfs" for="EMAIL ID">EMAIL ID </label><span id="ids"><input type="email" placeholder="Enter tha EMAIL Addreess"></span>
+        </div>
+        <br>
+        <div id="mobile">
+            <label id="rgfs" for="MOBILE NUMBER">MOBILE NUMBER</label><span id="mobiles"><input maxlength="10" placeholder="Enter tha mobile number" type="number">(10 Digits Numbers)</span>
+        </div><br><br>
+        <div class="gender">
+            <label  for="GENDER">GENDER</label><span id="Males"><label for="Male">Male</label><input type="radio"     value="Male" name="Male" id="Male">
+             <label for="Female">Female</label><input id="Female" value="Female" name="Female" type="radio">
+            </span>
+        </div><br>
+        <div class="address">
+            <label for="ADDRESS">ADDRESS</label><span><textarea  name="Addreess" id="Addreess"></textarea></span>
+        </div>
+        <br>
+        <div class="city">
+            <label for="CITY">City</label><span> <input maxlength="30" placeholder="Enter tha City Name" type="text"> (max 30 characters a-z and A-Z)</span> 
+        </div><br>
+        <div class="pin">
+            <label for="PIN CODE">PIN CODE</label><span> <input maxlength="6"  placeholder="Enter tha Pin Code" type="number">(6 Digits Numbers)</span>
+        </div><br>
+        <div class="state">
+            <label for="STATE">STATE</label><span> <input maxlength="30" type="text">(max 30 characters a-z and A-Z)</span>
+        </div>
+        <br><br>
+        <div class="contry">
+            <label for="COUNTRY">COUNTRY</label>
+            <span>
+                <input placeholder="Enter tha Conttry Name" type="text">
+            </span>
+        </div>
+        <br>
+        <br>
+        <div class="hobbies">
+            <label for="HOBBIES">HOBBIES</label> 
+            <span><label for="Drawing">Drawing</label><input type="checkbox">
+            <label for="Singing">Singing </label> <input type="checkbox">
+            <label for="Dancing"> Dancing </label><input type="checkbox">
+            <label for="Sketching">Sketching </label><input type="checkbox"><br>
+            <label for="Others">Others </label><input type="checkbox"> <input type="text">
+            </span>
+        </div><br>
+        <div class="table">
+            <label for="QUALIFICATION">QUALIFICATION</label>
+            <table>
+                <tr>
+                <th></th>
+                <th>SI.No.Examination</th>
+                <th>Board</th>
+                <th>Percentage</th>
+                <th>Year of passing</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td style="text-align: center;">Class X</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                
+            </tr>
+            <tr>
+                <td>2</td>
+                <td style="text-align: center;">Class XII</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                
+            </tr>
+            <tr>
+                <td >3</td>
+                <td style="text-align: center;">Graduation</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td style="text-align: center;">Masters</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            </table>
+        </div>
+        <div class="out">
+            <label for="10 char max">(10 char max)</label> <label for="upto 2 decimal"> </label>
+        </div>
+        <br><br>
+        <div class="selects">
+            <label for="COURSES">COURSES
+                APPLIED FOR</label>
+            <span>
+                <select name="select" id="select">
+                    <option value="Select any course">Select any course</option>
+                    <option value="BCA">BCA</option>
+                    <option value="B.A">B.A</option>
+                    <option value="B.SC">B.SC</option>
+                    <option value="B.Com">B.Com</option>
+                </select>
+            </span>
+        </div>
+        <br>
+        <div class="files">
+            <label for="Upload you pic">Upload you pic <br>
+                (only .png,.jpg,.jpeg formats allow) </label>
+                <span>
+                    <input type="file" >
+                </span>
+        </div>
+        <br>
+        <div class="button">
+            <button>Submit</button>
+            <span>
+                <button>Reset</button>
+            </span>
+        </div>
+        <br><br>
+    </form>
+</body>
+</html>
