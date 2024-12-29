@@ -1,0 +1,207 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#rg{
+    height: 500px;
+    margin-left: 27rem;
+}
+a{
+    justify-content: center;
+    display: flex;
+    font-size: 2rem;
+    margin-top: -8px;
+    font-weight: bold;
+}
+#f{
+    height: 500px;
+    margin-left: 27rem;
+}
+
+#three{
+    margin-left: 36rem;
+    height: 200px;
+    margin-top: 8rem;
+}
+#four{
+    height: 200px;
+    position: absolute;
+    left: 35rem;
+    top: 5rem;
+}
+.back{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.rp{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.NAME{
+    display: flex;
+    align-items: center;
+    margin-left: 24rem;
+    gap: 8px ;
+}
+#student{
+    text-align: center;
+    font-size:medium;
+    font-size: 1.6rem;
+}
+#rgfs{
+    position: relative;
+    right: 12rem;
+}
+#last{
+    display: flex;
+    align-items: center;
+    margin-left: 24rem;
+    gap:13px;
+}
+#date{
+    display: flex;
+    align-items: center;
+    margin-left: 24rem;
+    gap:11px;
+}
+#rgfd{
+    position: relative;
+    right: 12rem;
+}
+#rgfds{
+    position: relative;
+    right:23px;
+}
+#id{
+    display: flex;
+    align-items: center;
+    margin-left: 24rem;
+    gap: 13px ;
+}
+#ids{
+    position: relative;
+   left: 20px;
+}
+#mobile{
+    display: flex;
+    align-items: center;
+    margin-left: 24rem;
+    gap: 12px;
+}
+#mobiles{
+    position: relative;
+    right:41px;
+}
+.gender{
+    display: flex;
+    align-items: center;
+    margin-left: 12rem;
+    gap: 9px ;
+}
+#Males{
+    position: relative;
+    left: 14rem;
+}
+.address{
+    display: flex;
+    align-items: center;
+    margin-left: 12rem;
+    gap: 14rem;
+}
+textarea{
+    width: 25vw;
+    height: 90px;
+}
+.city{
+    display: flex;
+    align-items: center;
+    margin-left: 12rem;
+    gap: 267px;
+}
+.pin{
+    display: flex;
+    align-items: center;
+    margin-left: 12rem;
+    gap: 222px;
+}
+.state{
+    display: flex;
+    align-items: center;
+    margin-left: 12rem;
+    gap: 247px;
+}
+.hobbies{
+    display: flex;
+    align-items: center;
+    margin-left: 12rem;
+    gap:225px ;
+}
+.table{
+    display: flex;
+    align-items: center;
+    margin-left: 12rem;
+    gap: 167px;
+}
+.out{
+    display: flex;
+    margin-left:41rem;
+    gap: 7rem;
+}
+.files{
+    display: flex;
+    align-items: center;
+    margin-left: 12rem;
+    gap: 61px;
+}
+.selects{
+    display: flex;
+    align-items: center;
+    margin-left: 12rem;
+    gap: 113px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#new{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+}
+#news{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#st{
+    text-align: center;
+    font-size:25px;
+}
+#lase{
+    margin-left:16px;
+}
+#la{
+    margin-right: 24px;
+}
+#las{
+    margin-right: 17px;
+}
+.buttones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.contry{
+    display: flex;
+    align-items: center;
+    margin-left: 12rem;
+    gap: 218px;
+}
